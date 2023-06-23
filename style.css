@@ -1,0 +1,54 @@
+.tic-tac-toe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  margin: 100px 50px 50px 50px;
+}
+
+.content {
+  width: 381px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.item {
+  width: 125px;
+  height: 135px;
+  line-height: 150px;
+  text-align: center;
+  display: inline-block;
+  font-size: 45px;
+  border: 1px solid black;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: background 0.1s;
+}
+
+.winner {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.js-btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 10%;
+  font-size: 28px;
+  background-color: blanchedalmond;
+}
+
+.checkX,
+.checkO {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
